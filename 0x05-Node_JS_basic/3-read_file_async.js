@@ -37,7 +37,7 @@ module.exports = function countStudents(filePath) {
         }
       }
 
-      resolve();
+      resolve(result.trim());
     });
   });
 };
